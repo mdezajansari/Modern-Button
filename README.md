@@ -2,6 +2,9 @@
 
 A modern animated button built using HTML and CSS with smooth hover effects and gradient design.
 
+## 🌐 Live Demo
+https://mdezajansari.github.io/Modern-Button/
+
 ## 📸 Preview
 ![Preview](image.png)
 
@@ -14,9 +17,6 @@ A modern animated button built using HTML and CSS with smooth hover effects and 
 ## 🛠️ Tech Stack
 - HTML
 - CSS
-
-## 🌐 Live Demo
-https://mdezajansari.github.io/Modern-Button/
 
 ## 📂 How to Run
 1. Clone the repo
