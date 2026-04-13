@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Button</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* 🔥 Modern Gradient Background */
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: Arial, sans-serif;
+        }
+
+        .button {
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+            padding: 0.9rem 2.5rem;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        /* Hover Fill Effect */
+        .button::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: #000;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+            z-index: -1;
+            border-radius: 50px;
+        }
+
+        .button:hover::before {
+            transform: scaleX(1);
+        }
+
+        /* 🔥 Extra Hover Effects */
+        .button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+
+    <button class="button">Hire Me</button>
+
+</body>
+</html>
