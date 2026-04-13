@@ -1,6 +1,9 @@
 # Modern Button UI
 
-A simple modern button with hover animation built using HTML and CSS.
+A modern animated button built using HTML and CSS with smooth hover effects and gradient design.
+
+## 📸 Preview
+![Preview](image.png)
 
 ## 🚀 Features
 - Gradient background
@@ -8,16 +11,16 @@ A simple modern button with hover animation built using HTML and CSS.
 - Responsive design
 - Clean UI
 
-## 🛠️ Tech Used
+## 🛠️ Tech Stack
 - HTML
 - CSS
 
-## 📸 Preview
-(Add screenshot here later)
+## 🌐 Live Demo
+https://mdezajansari.github.io/Modern-Button/
 
 ## 📂 How to Run
-1. Download the project
-2. Open `index.html` in browser
+1. Clone the repo
+2. Open index.html in browser
 
 ## 👨‍💻 Author
-Md Ezaj Ansari
+Md Ezaj 
